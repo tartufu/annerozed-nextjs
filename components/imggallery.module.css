@@ -1,0 +1,13 @@
+.imgGalleryCards {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.imgGalleryDiv h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.imgGalleryDiv {
+  background-color: #F7B32B;
+}

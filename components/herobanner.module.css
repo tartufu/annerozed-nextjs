@@ -1,0 +1,36 @@
+.herobanner {
+    background-image: url("/images/hero-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.herobanner h1 {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+}
+
+.kofi {
+    max-width: 240px;;
+    padding-bottom: 1rem;
+}
+
+.center {
+    padding-top: 20%;
+}
+
+@media (min-width: 1200px) {
+    .herobanner {
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .herobanner h1 {
+        font-size: 4rem;
+    }
+
+    .center {
+        padding-left: 5 0%;
+    }
+}

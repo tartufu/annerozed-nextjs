@@ -1,0 +1,14 @@
+.komaDiv h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.komaDivContainer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.komaDiv img {
+    max-width: 14rem;;
+    float: left;
+}

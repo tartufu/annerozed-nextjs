@@ -1,0 +1,31 @@
+.comparisonDiv {
+    background-color: #F7B32B;
+}
+
+.comparisonDiv h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.comparisonCards {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.comparisonCard {
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.comparisonCard h3 {
+    color: black;
+}
+
+.comparisonCardHighlight {
+    padding: 0.5rem;
+    background-color: black;
+}
+
+.comparisonCardHighlight h3, .comparisonCardHighlight p {
+    color: white;
+}
