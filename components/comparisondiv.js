@@ -12,8 +12,8 @@ export default function ComparisonDiv(props) {
 
   let emoteCard = {
       title: "Emotes and Gifs",
-      pricingHeader: ['Bundle Pricing', 'Color', 'Memes'],
-      pricingBlurb: ['15 Usd, +12 USD per additional character', '21 USD, +18 USD per additional character', '21 USD per memer'],
+      pricingHeader: ['Emote Pricing', 'Bundle Pricing', 'Special Requests '],
+      pricingBlurb: ['redraw 8USD, orignal 16USD, gif additional 12USD', '4 redraws 28USD, 5 Original 70USD', 'Subject to complexity of request'],
       className: styles.comparisonCardHighlight
   }
 
@@ -24,7 +24,8 @@ export default function ComparisonDiv(props) {
       className: styles.comparisonCard
   }
 
-  const cards = [chibiCard, emoteCard, komaCard];
+  const cards = [emoteCard, chibiCard];
+  const colWidth = `col-md-${(12 /cards.length)}`;
 
   return (
     <div className={styles.comparisonDiv}>
@@ -36,6 +37,7 @@ export default function ComparisonDiv(props) {
                 pricingHeader={card.pricingHeader}
                 pricingBlurb={card.pricingBlurb}
                 className={card.className}
+                colWidth={colWidth}
             />
         )}
       </div>

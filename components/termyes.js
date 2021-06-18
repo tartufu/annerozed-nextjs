@@ -29,6 +29,7 @@ export default function TermYes(props) {
           I reserve the right to upload the commissioned artwork to my public
           channels unless requested not to.{" "}
         </li>
+        <li> I will not send the raw files of the emotes I have made or redrawn, chibi works are exempted to this.</li>
         <li> If you want to repost my work, please credit @anneroz_ed. </li>
       </ul>
     </div>

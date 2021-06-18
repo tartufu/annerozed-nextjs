@@ -2,14 +2,14 @@ export default function EmotesPricing(props) {
   return (
     <div>
       <h3>Emote Pricing</h3>
-      <p> Redraw of Existing Emotes - 6USD</p>
-      <p> Original Emotes - 12 USD</p>
-      <p> Additional 12 USD for Gif Emotes</p>
+      <p> Redraw of Existing Emotes - <strong>8 USD</strong> </p>
+      <p> Original Emotes - <strong>16 USD</strong></p>
+      <p> Additional <strong>12 USD</strong> for Gif Emotes</p>
       <br />
 
       <h3>Bundle Pricing</h3>
-      <p> 5 Redraws of Existing Emotes - 28 USD</p>
-      <p> 4 Original Emotes - 45 USD </p>
+      <p> 4 Redraws of Existing Emotes - <strong>28 USD</strong></p>
+      <p> 5 Original Emotes - <strong>70 USD</strong> </p>
       <br />
 
       <h3> Special Requests </h3>

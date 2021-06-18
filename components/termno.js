@@ -8,6 +8,11 @@ export default function TermNo(props) {
         <li> Gore </li>
         <li> NSFW </li>
       </ul>
+      <br></br>
+      <p> Additional Remarks</p>
+      <ul>
+        <li> I will not send the raw files of the emotes I have made or redrawn, chibi works are exempted to this.</li>
+      </ul>
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function ComparisonCard(props) {
     cardDetails = zip(cardDetails);
     console.log("aasdasd", cardDetails)
   return (
-    <div className={`col-md-4 ${props.className}`}>
+    <div className={`${props.colWidth} ${props.className}`}>
       <h3> {props.title}</h3>
       {cardDetails.map((cardDetail) => 
       <>

@@ -42,9 +42,10 @@ class Home extends React.Component {
         </Head>
 
         <HeroBanner />
-        <ChibiDiv />
         <EmotesDiv /> 
-        <KomaDiv />
+        <ChibiDiv />
+        {/* 4KOMA is no longer required but commented out just in case client wants it back in future */}
+        {/* <KomaDiv /> */}
         <SimpleReactLightbox>
           <ImgGallery />
         </SimpleReactLightbox>
